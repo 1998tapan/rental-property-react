@@ -23,3 +23,15 @@ img {
     justify-content: space-between;
     font-weight: 600;
 }
+
+@media(max-width:968px) {
+    .rental-container {
+        flex-basis: 48.5%;
+    }
+}
+
+@media(max-width:568px) {
+    .rental-container {
+        flex-basis: 98.5%;
+    }
+}
