@@ -1,13 +1,11 @@
+import ImageContainer from "./ImageContainer";
 import "./Rental.css";
 
 export default function Rental({ name, price, rating }) {
-    const url = `https://picsum.photos/400?random=${Math.random()}`;
 
     return (
         <div className="rental-container">
-            <div className="img-container">
-                <img src={url} alt="" />
-            </div>
+            <ImageContainer />
             <div className="rental-info">
                 <div className="rental-main-text">
                     <div className="rental-title">{name}</div>
