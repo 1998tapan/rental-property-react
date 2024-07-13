@@ -20,7 +20,7 @@ function App() {
     <>
       {properties.map(
         rental => (
-          <Rental key={rental.id} {...rental} />
+          <Rental key={rental.id} rental={rental} />
         ))}
     </>
   )
